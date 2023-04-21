@@ -16,17 +16,15 @@ theme:
   custom_dir: overrides
   palette:
     - scheme: light
-      primary: purple
+      primary: indigo
       accent: deep orange
       toggle:
-        # icon: material/toggle-switch-off-outline
         icon: material/weather-sunny
         name: Switch to dark mode
     - scheme: slate
-      primary: purple
+      primary: indigo
       accent: deep orange
       toggle:
-        # icon: material/toggle-switch
         icon: material/weather-night
         name: Switch to light mode
 
@@ -36,6 +34,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.indexes
+    - search.suggest
 
   logo: assets/ACCESS_icon_HIVE.png
   favicon: assets/ACCESS_icon_HIVE.png
