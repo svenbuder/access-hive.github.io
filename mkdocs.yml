@@ -16,16 +16,18 @@ theme:
   custom_dir: overrides
   palette:
     - scheme: light
-      primary: indigo
+      primary: purple
       accent: deep orange
       toggle:
-        icon: material/toggle-switch-off-outline
+        # icon: material/toggle-switch-off-outline
+        icon: material/weather-sunny
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
+      primary: purple
       accent: deep orange
       toggle:
-        icon: material/toggle-switch
+        # icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to light mode
 
 
@@ -65,6 +67,9 @@ markdown_extensions:
 # Navigation
 nav:
   - Home: index.md
+  - Getting Started: 
+    - getting_started/index.md
+    - ACCESS-OM2: getting_started/access-om2.md
   - Configurations: 
     - configurations/index.md
     - ACCESS-ESM: configurations/access-esm.md
