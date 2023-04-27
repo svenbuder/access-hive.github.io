@@ -18,13 +18,10 @@ ACCESS-NRI encourages the members of the community to [contact us](mailto:access
 
 <div class="termynal">
 ```console
-$ uvicorn main:app --reload
 
-<span style="color: green;">INFO</span>:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
-<span style="color: green;">INFO</span>:     Started reloader process [28720]
-<span style="color: green;">INFO</span>:     Started server process [28722]
-<span style="color: green;">INFO</span>:     Waiting for application startup.
-<span style="color: green;">INFO</span>:     Application startup complete.
+<span data-ty="input">pip install spacy</span>
+<span data-ty="progress"></span>
+<span data-ty>Successfully installed spacy</span>
 
 ```
 </div>

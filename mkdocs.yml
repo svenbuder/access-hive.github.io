@@ -35,6 +35,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     - search.suggest
+    - search.highlight
     - content.code.copy        # for displaying copy icon at top right in code snippets  
 
   logo: assets/ACCESS_icon_HIVE.png
@@ -146,3 +147,9 @@ extra:
 extra_css:
   - css/access-nri.css
   - css/fontello.css
+  - css/termynal.css
+  # - https://fastapi.tiangolo.com/css/termynal.css
+
+extra_javascript:
+- js/termynal.js
+- js/custom.js
