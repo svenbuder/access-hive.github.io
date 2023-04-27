@@ -35,6 +35,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     - search.suggest
+    - content.code.copy        # for displaying copy icon at top right in code snippets  
 
   logo: assets/ACCESS_icon_HIVE.png
   favicon: assets/ACCESS_icon_HIVE.png

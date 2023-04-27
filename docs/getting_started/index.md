@@ -1,4 +1,4 @@
-# Training and Policies
+# TODO dummy info
 
 {% include "call_contribute.md" %}
 
@@ -15,6 +15,19 @@ It is also intended for training material around more peripheral topics that are
 - essential software packages
 
 ACCESS-NRI encourages the members of the community to [contact us](mailto:access.nri@anu.edu.au) to share their suggestions.
+
+<div class="termynal">
+```console
+$ uvicorn main:app --reload
+
+<span style="color: green;">INFO</span>:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+<span style="color: green;">INFO</span>:     Started reloader process [28720]
+<span style="color: green;">INFO</span>:     Started server process [28722]
+<span style="color: green;">INFO</span>:     Waiting for application startup.
+<span style="color: green;">INFO</span>:     Application startup complete.
+
+```
+</div>
 
 
 Finally, you will also find [ACCESS-NRI's policies][policies] in this space.
