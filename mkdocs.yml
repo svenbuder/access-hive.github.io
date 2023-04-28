@@ -36,7 +36,7 @@ theme:
     - navigation.indexes
     - search.suggest
     - search.highlight
-    - content.code.copy        # for displaying copy icon at top right in code snippets  
+    # - content.code.copy        # for displaying copy icon at top right in code snippets  
     - content.action.edit
     - content.action.view
 

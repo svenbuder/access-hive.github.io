@@ -16,7 +16,7 @@ It is also intended for training material around more peripheral topics that are
 
 ACCESS-NRI encourages the members of the community to [contact us](mailto:access.nri@anu.edu.au) to share their suggestions.
 
-<div class="termynal">
+<div id="termynal" data-termynal>
 ```console
 
 <span data-ty="input">pip install spacy</span>
