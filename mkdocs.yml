@@ -37,9 +37,14 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy        # for displaying copy icon at top right in code snippets  
+    - content.action.edit
+    - content.action.view
 
   logo: assets/ACCESS_icon_HIVE.png
   favicon: assets/ACCESS_icon_HIVE.png
+  icon:
+    edit: material/pencil
+    view: material/eye
 copyright: Copyright &copy; 2022 ACCESS-NRI
 
 plugins:
