@@ -24,7 +24,7 @@ ACCESS-NRI encourages the members of the community to [contact us](mailto:access
 <span data-ty>Successfully installed spacy</span>
 
 ```
-</div>
+</div> 
 
 
 Finally, you will also find [ACCESS-NRI's policies][policies] in this space.
