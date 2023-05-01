@@ -51,6 +51,13 @@
     text-align: center;
 }
 
+/* Changes from fastapi */
+a[data-terminal-control] {
+    text-align: right;
+    display: block;
+    color: #aebbff;
+}
+
 [data-ty] {
     display: block;
     line-height: 2;
