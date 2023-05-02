@@ -1,5 +1,5 @@
 # Edit directly on GitHub
-
+<!-- 
 This way to edit the site allows people with no knowledge of Git to contribute to ACCESS-Hive but is only suitable for light modifications of existing pages.
 
 - Go to the page you want to modify on the ACCESS-Hive documentation site. At the right of the title, you will see a pen icon :material-pencil:. When you click on this icon, your browser will open the file in GitHub allowing you to edit the file.
@@ -57,4 +57,4 @@ During the review process, you might be requested to edit your proposed changes.
 </figure>
 
 [MarkdownSheet]: https://www.markdownguide.org/cheat-sheet/
-[preview]: local_edit.md#preview-from-a-pull-request
+[preview]: local_edit.md#preview-from-a-pull-request -->

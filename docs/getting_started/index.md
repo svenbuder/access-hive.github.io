@@ -16,16 +16,24 @@ It is also intended for training material around more peripheral topics that are
 
 ACCESS-NRI encourages the members of the community to [contact us](mailto:access.nri@anu.edu.au) to share their suggestions.
 
-<div class="termynal" data-termynal>
+<!-- <div class="termynal" data-termynal> -->
 
-```console
+<!-- termynal -->
+
+```
+$ show progress
+---> 100%
+Done!
+# this is a comment
+```
+
+<!-- </div>  -->
+
+```
 <span data-ty="input">pip install spacy</span>
 <span data-ty="progress"></span>
 <span data-ty>Successfully installed spacy</span>
-```
-
-</div> 
-
+``` 
 
 Finally, you will also find [ACCESS-NRI's policies][policies] in this space.
 

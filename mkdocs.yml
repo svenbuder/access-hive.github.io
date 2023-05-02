@@ -53,6 +53,7 @@ plugins:
       enable_creation_date: true
   - search
   - macros
+  - termynal
   - bibtex:
       bib_file: "references.bib"
   - events:
@@ -150,11 +151,11 @@ extra:
   community: '<a href="https://access-hive.org.au/about/support"><i class="icon-community" title="Community Contributed"></i></a>'
 
 extra_css:
+  # - css/termynal.css
   - css/access-nri.css
   - css/fontello.css
-  - css/termynal.css
   - css/custom-termynal.css
 
 extra_javascript:
-- js/termynal.js
-- js/custom.js
+# - js/termynal.js
+# - js/custom.js

@@ -1,6 +1,6 @@
 # Additional training material
 
-## [Git and GitHub][GitAndGitHub] {{ supported }}
+<!-- ## [Git and GitHub][GitAndGitHub] {{ supported }}
 
 To learn the basics of Git and GitHub. It also includes ACCESS-NRI's recommendations to setup GitHub. 
 
@@ -22,4 +22,4 @@ Users can find important information and resources about using NCI systems and s
 [nci-web]: https://www.nci.org.au
 [nci-training]: https://www.nci.org.au/users/user-training
 [opus-web]: https://opus.nci.org.au/display/Help/NCI+Training+and+Educational+Events
-[nci-user-guides]: https://opus.nci.org.au/
+[nci-user-guides]: https://opus.nci.org.au/ -->
