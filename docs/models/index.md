@@ -77,21 +77,56 @@ software called **couplers** to form different Model Configurations.
 </div>
 
 ## ACCESS Model Configurations
-<div class="wrapper-div-config">
-    <!-- TODO change href links for these cards -->
-    <div class="wrapper-img-config">
-        <a href="model_components/bgc_land/">
-                <img src="../assets/model-config-logos/access-om2-config.png"></img> 
-                <div class="card-links">ACCESS OM2</div>
-        </a>
+<div>
+    <div class="wrapper-div-config">
+        <!-- TODO change href links for these cards -->
+        <div class="wrapper-img-config">
+            <a href="model_components/bgc_land/">
+                    <img src="../assets/model-config-logos/access-om2-config.png"></img> 
+                    <div class="card-links">ACCESS OM2</div>
+            </a>
+        </div>
+        <div class="wrapper-text-config">
+        <b>ACCESS-OM2 configuration</b><br><br>
+            ACCESS-OM2 is the ocean and sea-ice component of the ACCESS coupled model. ACCESS-OM2 provides the Australian climate community with ocean weather and climate research, including seasonal forecasting, climate variability studies, downscaling of climate in the marine environment around Australia, and ocean biogeochemistry modelling.
+            <br>
+            <div class="arrow-align">
+                <i class="material-icons">arrow_right_alt</i>
+            </div>
+        </div>
     </div>
-    <div class="wrapper-text-config">
-       <b>ACCESS-OM2 configuration</b><br><br>
-        ACCESS-OM2 is the ocean and sea-ice component of the ACCESS coupled model. ACCESS-OM2 provides the Australian climate community with ocean weather and climate research, including seasonal forecasting, climate variability studies, downscaling of climate in the marine environment around Australia, and ocean biogeochemistry modelling.
-        <br>
-        <div class="arrow-align">
-            <i class="material-icons">arrow_right_alt</i>
+    <div class="wrapper-div-config">
+        <!-- TODO change href links for these cards -->
+        <div class="wrapper-img-config">
+            <a href="model_components/bgc_land/">
+                    <img src="../assets/model-config-logos/access-cm2-config-2.png"></img> 
+                    <div class="card-links">ACCESS CM2</div>
+            </a>
+        </div>
+        <div class="wrapper-text-config">
+        <b>ACCESS-CM2 configuration</b><br><br>
+            The Coupled Model 2 (CM2) includes the atmosphere, ocean, and sea-ice components and produces physical climate simulations. ACCESS-CM2 features improved fluid dynamics and a microphysical aerosol scheme.
+            <br>
+            <div class="arrow-align">
+                <i class="material-icons">arrow_right_alt</i>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-div-config">
+        <!-- TODO change href links for these cards -->
+        <div class="wrapper-img-config">
+            <a href="model_components/bgc_land/">
+                    <img src="../assets/model-config-logos/access-esm-config.png"></img> 
+                    <div class="card-links">ACCESS ESM 1.5</div>
+            </a>
+        </div>
+        <div class="wrapper-text-config">
+        <b>ACCESS-ESM 1.5 configuration</b><br><br>
+            An ESM (Earth System Model) simulates the carbon and other bio-chemical cycles alonside climate. ACCESS-ESM 1.5 is one of the two ACCESS global coupled model versions. It includes land and ocean biogeochemistry.
+            <br>
+            <div class="arrow-align">
+                <i class="material-icons">arrow_right_alt</i>
+            </div>
         </div>
     </div>
 </div>
-
