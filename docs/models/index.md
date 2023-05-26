@@ -77,5 +77,21 @@ software called **couplers** to form different Model Configurations.
 </div>
 
 ## ACCESS Model Configurations
-
+<div class="wrapper-div-config">
+    <!-- TODO change href links for these cards -->
+    <div class="wrapper-img-config">
+        <a href="model_components/bgc_land/">
+                <img src="../assets/model-config-logos/access-om2-config.png"></img> 
+                <div class="card-links">ACCESS OM2</div>
+        </a>
+    </div>
+    <div class="wrapper-text-config">
+       <b>ACCESS-OM2 configuration</b><br><br>
+        ACCESS-OM2 is the ocean and sea-ice component of the ACCESS coupled model. ACCESS-OM2 provides the Australian climate community with ocean weather and climate research, including seasonal forecasting, climate variability studies, downscaling of climate in the marine environment around Australia, and ocean biogeochemistry modelling.
+        <br>
+        <div class="arrow-align">
+            <i class="material-icons">arrow_right_alt</i>
+        </div>
+    </div>
+</div>
 
