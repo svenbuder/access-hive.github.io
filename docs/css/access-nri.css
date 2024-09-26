@@ -2,7 +2,6 @@
    ACCESS-Hive CSS
 */
 
-
 /* Import medium-weight Roboto font for tabs */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
@@ -17,6 +16,30 @@
   --md-accent-fg-color: #f5c533;
   --md-primary-tab-color: #2e303e;
   --md-primary-hover-tab-color: #444448;
+}
+
+/* .md-sidebar {
+  background-color: #cb2828;
+  font-size: 2.5em;
+} */
+
+.md-nav--primary {
+  font-size: 1.7em;
+}
+
+.md-nav--secondary {
+  font-size: 1.5em;
+}
+
+.md-nav {
+  /* background-color: #262623; */
+  /* border: 0.1em solid; */
+  border-left: 1px solid;
+  border-color: rgba(255, 255, 255, 0.078);
+
+  /* border-left: #e5e527;
+  border-right: #cfcf37; */
+  /* font-size: 1.7em; */
 }
 
 /* Changing the overall theme (background color) of the app */
@@ -81,7 +104,7 @@
 
 /* Main body content */
 .md-main__inner {
-  margin-top: 1em;
+  margin-top: 1.2em;
 }
 
 /* Header */
@@ -98,7 +121,8 @@
 /* Tab section */
 .md-tabs {
   background-color: var(--md-primary-fg-color--dark);
-  margin-top: 0.6em; }
+  margin-top: 0.6em; 
+}
 
 /* Unselected tab */
 .md-tabs__item {
@@ -117,6 +141,7 @@
   padding-top: 0.8em;
   padding-bottom: 0.8em;
   font-size: 1.5em;
+  padding-left: 0.7em;
 }
 
 /* Selected tab */
@@ -135,6 +160,11 @@
 .md-tabs__item--active .md-tabs__link {
   opacity: 1;
 }
+
+/* .md-typeset img, .md-typeset svg, .md-typeset video {
+  height: 100%;
+  max-width: 100%;
+} */
 
 /* Tab hover state */
 .md-tabs__item:hover {
@@ -162,8 +192,9 @@
 .heart {
   animation: heart 1000ms infinite;
   color: #F82464;
-  margin-top: 0.5em;
+  /* margin-top: 0.5em; */
   font-size: medium;
+  margin-left: 0.5em;
 }
 
 .heart:hover {
@@ -174,6 +205,7 @@
 .icon-supported {
   color: #a5cd39;
   font-size: medium;
+  margin-left: 0.5em;
   /* margin-top: 10%;
   margin-bottom: 10%; */
 }
@@ -185,9 +217,112 @@
 .icon-recommended {
   color: #F9A61C;
   font-size: medium;
+  margin-left: 0.5em;
   /* margin-top: 0.5em; */
 }
 
 .icon-recommended:hover {
   color: #f9a41cb3;
 }
+
+/* Vertically center the icons */
+.center-icons {
+  /* border: 0.1rem solid;  */
+  display: flex; 
+  align-items: center;
+}
+
+/* Highlight the background of headings ----------- */
+.highlight-bg {
+  background-color: rgba(29, 28, 28, 0.622);
+  color: white;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  width: fit-content;
+  border-radius: 0.1em;
+}
+
+/* ACCESS model components in /models tab */
+.wrapper-div {
+  margin-top: 1em;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.wrapper-children {
+  display: inline-block;
+  /* background-color: rgb(255, 255, 255); */
+  border: 0.1em solid;
+  border-radius: 7px;
+  border-color: #5f626a;
+  /* width: 50%; */
+  /* margin-left: 2em; */
+  /* margin-right: 1em; */
+  box-shadow: 5px 8px 10px #1b1b1b;
+  /* padding: 2%; */
+}
+
+.wrapper-children:hover {
+  box-shadow: 10px 10px 10px #000000;
+  border-color: white;
+  transition-duration: 0.4s;
+}
+
+.card-links {
+  color: white;
+}
+/* -------------------------------------------- */
+
+/* "ACCESS Model Configurations" in `/models` tab CSS --------- */
+.wrapper-div-config {
+  margin-top: 1em;
+  display: flex;
+  border: 0.1em solid;
+  border-radius: 7px;
+  border-color: #5f626a;
+  box-shadow: 5px 8px 10px #1b1b1b;
+}
+
+.wrapper-div-config:hover {
+  box-shadow: 10px 10px 10px #000000;
+  border-color: white;
+  transition-duration: 0.4s;
+}
+
+.wrapper-img-config {
+  background-color: white;
+  display: inline-block;
+  width: 40%;
+  border-radius: 7px;
+  /* aspect-ratio: 1 / 1; */
+}
+
+/* .img-config {
+  display: flex;
+  align-items: center;
+} */
+
+.wrapper-text-config {
+  width: 60%;
+  margin: 1em;
+  color: white;
+}
+
+.arrow-align {
+  text-align: right;
+  color: #aebbff;
+  align-items: bottom;
+  vertical-align: text-bottom;
+  display: flex;
+  align-items: end;
+  padding: 2%;
+}
+
+.arrow-align:hover {
+  color: #F9A61C;
+  transition-duration: 0.4s;
+}
+/* -------------------------------------------- */
